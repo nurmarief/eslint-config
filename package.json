@@ -1,0 +1,33 @@
+{
+  "name": "@nurmarief/eslint-config",
+  "version": "1.0.0",
+  "description": "My personal eslint config",
+  "main": "index.js",
+  "prettier": "@nurmarief/prettier-config",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nurmarief/eslint-config.git"
+  },
+  "author": "Nur Muhammad Arief Kurniawan <ariefmuhammad897@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nurmarief/eslint-config/issues"
+  },
+  "homepage": "https://github.com/nurmarief/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": ">= 3",
+    "eslint-config-airbnb-base": ">=15.0.0"
+  },
+  "devDependencies": {
+    "@nurmarief/prettier-config": "^1.0.0",
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "3.0.3"
+  }
+}
